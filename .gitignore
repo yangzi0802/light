@@ -1,6 +1,0 @@
-# Project exclude paths
-/light-admin/target/
-/light-auth/target/
-/light-common/target/
-/light-gateway/target/
-/light-mini-app/target/
