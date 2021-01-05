@@ -9,9 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.light.auth</groupId>
     <artifactId>light-auth</artifactId>
-
-    <name>light-auth</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

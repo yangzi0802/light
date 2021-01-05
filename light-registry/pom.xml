@@ -9,9 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.light.registry</groupId>
     <artifactId>light-registry</artifactId>
-
-    <name>light-registry</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
