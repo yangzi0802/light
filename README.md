@@ -6,8 +6,9 @@
 
 | 工具  | 版本  |                           下载地址                           |
 | :---: | :---: | :----------------------------------------------------------: |
-| Java  | 1.8 + | https://www.oracle.com/java/technologies/javase-downloads.html |
-| MySQL | 5.7 + |        https://dev.mysql.com/downloads/mysql/5.7.html        |
+| Java  |  1.8  | https://www.oracle.com/java/technologies/javase-downloads.html |
+| Maven | 3.3.9 |            https://maven.apache.org/download.cgi             |
+| MySQL |  5.7  |        https://dev.mysql.com/downloads/mysql/5.7.html        |
 | Redis |       |                                                              |
 | NGINX |       |  https://docs.nginx.com/nginx/admin-guide/installing-nginx/  |
 

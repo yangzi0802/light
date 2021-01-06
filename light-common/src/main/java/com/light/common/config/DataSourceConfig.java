@@ -10,14 +10,15 @@ import javax.sql.DataSource;
 
 /**
  * @ClassName DataSourceConfig
- * @Description: 数据源配置类
+ * @Description: 多数据源配置类
+ * https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter
  * @Author Administrator
  * @Date 2021/1/5 21:19
  **/
 @Configuration
 public class DataSourceConfig {
 
-    @Primary
+    /*@Primary
     @Bean
     @ConfigurationProperties("spring.datasource.druid.one")
     public DataSource dataSourceOne(){
@@ -28,5 +29,5 @@ public class DataSourceConfig {
     @ConfigurationProperties("spring.datasource.druid.two")
     public DataSource dataSourceTwo(){
         return DruidDataSourceBuilder.create().build();
-    }
+    }*/
 }
