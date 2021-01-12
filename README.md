@@ -45,39 +45,3 @@ light
 └── config 			-- 配置中心文件
 ```
 
-
-
-# 启动流程
-
-### 一、启动注册中心及配置中心nacos（light-registry/nacos/bin/）
-
-##### 1、启动nacos服务端
-
-**Linux/Unix/Mac**
-
-启动命令(standalone代表着单机模式运行，非集群模式):
-
-```shell
-sh startup.sh -m standalone
-```
-
-如果您使用的是ubuntu系统，或者运行脚本报错提示[[符号找不到，可尝试如下运行：
-
-```shell
-bash startup.sh -m standalone
-```
-
-**Windows**
-
-启动命令(standalone代表着单机模式运行，非集群模式):
-
-```shell
-cmd startup.cmd -m standalone
-```
-
-##### 2、查看nacos管理页面
-
-http://localhost:8848/nacos/
-
-### 二、
-
