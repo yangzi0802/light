@@ -35,6 +35,12 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
 
+        <!-- 流量控制、熔断降级、系统负载 -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
+
         <!-- SpringMVC -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

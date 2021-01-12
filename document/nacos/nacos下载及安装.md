@@ -1,3 +1,7 @@
+---
+typora-root-url: img
+---
+
 # 环境准备
 
 官方文档：https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html
@@ -62,4 +66,39 @@ set "NACOS_OPTS=%NACOS_OPTS% -Dserver.port=8850"
 
 http://localhost:8850/nacos/
 
-##### 3、新建
+##### 3、nacos管理页面新建light-member-dev.yaml
+
+```yaml
+spring:
+  application:
+    name: light-member
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
+      username: root
+      password: Lingtouyang@0402
+
+mybatis:
+  mapper-locations: classpath*:/mapper/**/*.xml
+```
+
+
+![image-20210112201836088](/../nacos%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85.assets/image-20210112201836088.png)
+
+###### 4、应用resources下面新建bootstrap.yml(yaml/properties)文件
+
+```yaml
+spring:
+  application:
+    name: light-member
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8850
+      config:
+        server-addr: 127.0.0.1:8850
+        file-extension: yaml
+```
+
+##### 详见官方文档 https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html
