@@ -1,6 +1,6 @@
-package com.light.member.service;
+package com.light.member.service.sys;
 
-import com.light.member.entity.SysUser;
+import com.light.member.entity.sys.SysUser;
 
 import java.util.List;
 

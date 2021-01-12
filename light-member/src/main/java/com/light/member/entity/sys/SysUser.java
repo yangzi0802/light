@@ -1,4 +1,4 @@
-package com.light.member.entity;
+package com.light.member.entity.sys;
 
 public class SysUser {
 

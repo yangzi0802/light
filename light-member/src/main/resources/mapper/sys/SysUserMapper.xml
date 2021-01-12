@@ -5,7 +5,7 @@
 
 <mapper namespace="com.light.member.dao.SysUserDao">
 
-    <select id="listUsers" resultType="com.light.member.entity.SysUser">
+    <select id="listUsers" resultType="com.light.member.entity.sys.SysUser">
         select * from sys_user
     </select>
 

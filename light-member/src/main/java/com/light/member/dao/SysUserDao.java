@@ -1,6 +1,6 @@
 package com.light.member.dao;
 
-import com.light.member.entity.SysUser;
+import com.light.member.entity.sys.SysUser;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
